@@ -1,1 +1,1 @@
-# bebo-sdk-docs
+# bebo-rooms
