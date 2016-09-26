@@ -50,4 +50,4 @@ The `onReady()` function is typically used with an anonymous function::
         // Bebo is initialized
     });
 
-**IMPORTANT: the `onReady` function is required for all other functions to work.**
+.. important:: the `onReady` function is required for all other functions to work.
