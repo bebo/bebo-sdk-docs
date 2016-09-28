@@ -44,18 +44,14 @@ Now let's try adding in some actual Bebo SDK functionality to a new **room**.
 #. Open Bebo on your phone > tap gear icon > tap Add Room > enter https://<your-username>.github.io/<room-name>
 #. Open index.html 
 
-
-
-* For a blank canvas **room**, fork https://github.com/bebo-rooms/hello-world
-* For a fully-functional chat **room**, fork https://github.com/bebo-rooms/chat
-* More example rooms coming
-
-For a full list of **rooms**, visit https://github.com/bebo-rooms
-
-But all you really need is a URL that has an index.html.
-
 .. image:: http://i.imgur.com/lLLu6i9.png
    :align: center
    :target: getting_started.html
+
+More examples
+############
+
+* For a full list of **rooms**, visit https://github.com/bebo-rooms
+* Additional blog post walkthroughs of examples at :doc:`examples`
 
 .. note:: We breezed over a ton of concepts here. If you're uncomfortable, read :doc:`/getting_started` instead.

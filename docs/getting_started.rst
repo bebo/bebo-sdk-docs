@@ -26,19 +26,12 @@ The :code:`onReady()` function is typically used with an anonymous function::
 
 .. important:: the :code:`onReady` function is required for all other functions to work.
 
-Add Bebo SDK to a new project
+Add Bebo SDK to a new or existing project
 -----------------------------------
 
-
-Add Bebo SDK to an existing project
-----------------------------------------
-
-
-#. Join the Bebo Hackers group on Bebo (access code: :code:`wneseg`). Tell a team member to provision you a new **room**. This will create a GitHub repo at https://github.com/bebo-rooms/<room-name>
+#. Join the Bebo Hackers group on Bebo (access code: :code:`wneseg`). Ask @furqan to provision you a new **room**. This will create a GitHub repo at https://github.com/bebo-rooms/<room-name>
 #. :code:`$ git clone git@github.com:bebo-rooms/<room-name>.git` to clone the 'room-name' **room** to your local machine
 #. :code:`$ mv chat <some-new-name>` to rename the repo to your idea's name
 #. Follow its README.md instructions. They will look like :code:`npm setup` :code:`npm install` etc.
 #. Verify it’s up at username.github.io/projectname
 #. Open Bebo on your phone > tap Group Settings > find your **room** > tap Add Room
-
-.. note:: We breezed over a ton of concepts here. If you're uncomfortable, read :doc:`/getting_started` instead.
