@@ -8,7 +8,7 @@ To setup:
 2. `$ cd bebo-sdk-docs`
 3. `$ virtualenv env` to make a Python virtual environment (`pip install virtualenv` if you don't have this command)
 4. `$ source env/bin/activate` to activate your virtual environment
-5. `pip install -r requirements.txt` to install required packages
+5. `$ pip install -r requirements.txt` to install required packages
 
 To edit locally:
 
