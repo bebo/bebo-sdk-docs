@@ -11,7 +11,7 @@ Installation
 **Link to source file**::
 
     <head>
-      <script src=""></script>
+      <script src="https://widgets.bebo.com/leaderboard.min.js"></script>
     </head>
 
 You know have a variable Leaderboard that you can reference in your Javascript, with all the functionality built in as methods. Sorting and updating is done automatically, just use the methods below!
