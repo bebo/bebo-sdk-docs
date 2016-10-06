@@ -35,3 +35,4 @@ The capture() function will capture a photo if the camera preview is open::
     	}
     	console.log(url); //<--- url is a url to your image.
     });
+.. note:: Url is *only*  usable within the app. If you want to host/access this image elsewhere, use `Bebo.uploadImage <misc_api.html#bebo-uploadimage>`_ 

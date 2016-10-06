@@ -97,8 +97,13 @@ Bebo.openURI
 
 `Bebo.openURI(uri)`
 
-The openURI() function will open the passed in URI. This is helpful for sharing, such as to Facebook, Twitter, through What's App, or even through your native SMS client. **NOTE: iOS and Android treat SMS URI's differently, do your research**:
+The openURI() function will open the passed in URI::
 
-        $("#twitter").on("click",function(){
-            Bebo.openURI("https://twitter.com/intent/tweet?status=Hello")
+        $("#whatsapp").on("click",function(){
+            Bebo.openURI("whatsapp://send?text=Hello%2C%20World!");
         });
+
+.. note:: iOS and Android treat some URI's differently, do your research!
+
+.. note:: `Bebo.Share <share_api.html>` has prebuilt methods for sending SMS, Twitter, and Whatsapp messages, regardless of device!
+

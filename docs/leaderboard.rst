@@ -2,7 +2,9 @@ Leaderboard
 =====================
 
 
-A Bebo component to quickly add a leaderboard into your HTML5 game. **NOTE: Leaderboard is scoped to group and app, so the leaderboard from one game won't interfere with another, and won't interfere with the same game on another group.***
+A Bebo component to quickly add a leaderboard into your HTML5 game. 
+
+.. note:: Leaderboard is scoped to group and app, so the leaderboard from one game won't interfere with another, and won't interfere with the same game on another group.
 
 
 Installation
