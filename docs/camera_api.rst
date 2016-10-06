@@ -21,11 +21,11 @@ The previewOff() function will turn off the native camera preview::
 
     Bebo.previewOff();
 
-Bebo.Camera.capture
+Bebo.Camera.capturePhoto
 ---------------------
     
-`Bebo.Camera.capture();`
+`Bebo.Camera.capturePhoto();`
 
 The capture() function will capture a photo if the camera preview is open::
 
-    Bebo.Camera.capture();
+    Bebo.Camera.capturePhoto();

@@ -112,3 +112,9 @@ Sets a function to be executed every time a new score is set::
     };
 
     Leaderboard.setOnScore(newScore);
+
+
+Feedback
+------------
+
+Got an idea on how to improve it or questions? Email johnny.dallas@bebo.com!
