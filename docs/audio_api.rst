@@ -8,7 +8,7 @@ Bebo.Audio.callin
 
 `Bebo.Audio.callin();`
 
-The callin() function turns on the users camera and microphone and broadcasts to everyone within your app::
+The callin() function turns on the users camera and microphone and broadcasts to everyone within your group::
 
     Bebo.Audio.callin();
 

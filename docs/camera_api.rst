@@ -24,8 +24,14 @@ The previewOff() function will turn off the native camera preview::
 Bebo.Camera.capturePhoto
 ---------------------
     
-`Bebo.Camera.capturePhoto();`
+`Bebo.Camera.capturePhoto(callback);`
 
 The capture() function will capture a photo if the camera preview is open::
 
-    Bebo.Camera.capturePhoto();
+    Bebo.Camera.capturePhoto(function(err,url){
+    	if (err){
+    		console.error(err);
+    		return;
+    	}
+    	console.log(url); //<--- url is a url to your image.
+    });
