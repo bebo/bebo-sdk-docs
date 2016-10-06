@@ -13,23 +13,6 @@ The getRoster() function return a list of users that are members of your server:
         console.log('resp', resp); // an object containing users
     });
 
-Bebo.callin
-------------------
-
-`Bebo.callin();`
-
-The callin() function turns on the users camera and microphone and broadcasts to everyone within your app::
-
-    Bebo.callin();
-
-Bebo.hangup
-------------------
-
-`Bebo.hangup();`
-
-The hangup() function turns off the users camera and microphone and stops broadcasting to everyone::
-
-    Bebo.hangup();
 
 Bebo.onCallUpdate
 ------------------
@@ -81,17 +64,6 @@ The getEnv() function returns the current environment (ios, android or local)::
 
     var env = Bebo.getEnv();
 
-Bebo.firstUse
-------------------
-
-`Bebo.firstUse();`
-
-The firstUse() function returns back if this is the user’s first time using your app::
-
-    Bebo.firstUse(function(err, resp){
-        if(err){ return console.log('error retreiving data', err) };
-        console.log('resp', resp); // bool (true or false)
-    });
 
 Bebo.lastUsed
 ------------------
@@ -119,3 +91,19 @@ The getStream() function is self explanatory for us but will be broken down into
         console.log('stream', stream); 
         // returns a stream object
     });
+
+Bebo.openURI
+------------------
+
+`Bebo.openURI(uri)`
+
+The openURI() function will open the passed in URI::
+
+        $("#whatsapp").on("click",function(){
+            Bebo.openURI("whatsapp://send?text=Hello%2C%20World!");
+        });
+
+.. note:: iOS and Android treat some URI's differently, do your research!
+
+.. note:: `Bebo.Share <share_api.html>` has prebuilt methods for sending SMS, Twitter, and Whatsapp messages, regardless of device!
+

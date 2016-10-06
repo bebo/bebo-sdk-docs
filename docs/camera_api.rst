@@ -21,11 +21,18 @@ The previewOff() function will turn off the native camera preview::
 
     Bebo.previewOff();
 
-Bebo.Camera.capture
+Bebo.Camera.capturePhoto
 ---------------------
     
-`Bebo.Camera.capture();`
+`Bebo.Camera.capturePhoto(callback);`
 
 The capture() function will capture a photo if the camera preview is open::
 
-    Bebo.Camera.capture();
+    Bebo.Camera.capturePhoto(function(err,url){
+    	if (err){
+    		console.error(err);
+    		return;
+    	}
+    	console.log(url); //<--- url is a url to your image.
+    });
+.. note:: Url is *only*  usable within the app. If you want to host/access this image elsewhere, use `Bebo.uploadImage <misc_api.html#bebo-uploadimage>`_ 
