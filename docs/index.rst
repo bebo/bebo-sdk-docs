@@ -55,9 +55,10 @@ Download `Bebo for iOS <https://itunes.apple.com/us/app/bebo-private-server-for-
 
 .. toctree::
    :maxdepth: 2
-   :caption: Libraries
+   :caption: Modules
 
    react_lib
+   leaderboard
 
 
 
