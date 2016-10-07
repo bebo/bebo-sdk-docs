@@ -11,4 +11,5 @@ There are several distinct classes of API methods available:
 * `Camera Api <camera_api.html>`_
 * `Audio Api <audio_api.html>`_
 * `Share Api <share_api.html>`_
+* `Utils Api <utils_api.html>`_
 * `Misc. Api <misc_api.html>`_
