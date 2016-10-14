@@ -53,6 +53,7 @@ Download `Bebo for iOS <https://itunes.apple.com/us/app/bebo-private-server-for-
    camera_api
    audio_api
    share_api
+   utils_api
    misc_api
 
 .. toctree::
