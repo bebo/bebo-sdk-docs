@@ -107,3 +107,14 @@ The openURI() function will open the passed in URI::
 
 .. note:: `Bebo.Share <share_api.html>` has prebuilt methods for sending SMS, Twitter, and Whatsapp messages, regardless of device!
 
+
+Bebo.isPopup(cb)
+------------------
+
+`Bebo.isPopup(cb)`
+
+Bebo.openPopupRoom(room_id, title, width, height)
+------------------
+
+`Bebo.openPopupRoom(room_id, title, width, height)`
+
